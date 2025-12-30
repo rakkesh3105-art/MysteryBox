@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>😁 Fun Gallery 😋</title>
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="welcome-page">
+		<div class="background-doodles">
+			<div class="emoji emoji-1">🎅</div>
+			<div class="emoji emoji-2">🎄</div>
+			<div class="emoji emoji-3">❄️</div>
+			<div class="emoji emoji-4">⛄</div>
+			<div class="emoji emoji-5">🦌</div>
+			<div class="emoji emoji-6">🎁</div>
+			<div class="emoji emoji-7">🎀</div>
+			<div class="emoji emoji-8">✨</div>
+			<div class="emoji emoji-9">🔔</div>
+			<div class="emoji emoji-10">🧦</div>
+			<div class="emoji emoji-11">🌟</div>
+			<div class="emoji emoji-12">🎄</div>
+			<div class="emoji emoji-13">❄️</div>
+			<div class="emoji emoji-14">⛄</div>
+			<div class="emoji emoji-15">🎅</div>
+		</div>
+		<div class="welcome-message" id="welcomeMessage">
+			<h1 id="welcomeTitle"></h1>
+			<br>
+			<p class="welcome-subtitle">Ready To See Some Fun Stuff About You ??</p>
+			<br>
+			<p class="welcome-subtitle">🎁 Tap A Gift To See The Surprise 🎁</p>
+		</div>
+		<div class="teasing-grid" id="teasingGrid"></div>
+		<div class="modal" id="imageModal">
+			<div class="modal-content">
+				<span class="close-modal">&times;</span>
+				<div class="modal-body">
+					<h2 id="modalTitle"></h2>
+					<div class="media-container">
+						<img id="modalImage" src="" alt="" style="display: none;">
+						<video id="modalVideo" controls style="display: none;"></video>
+					</div>
+					<p id="modalText"></p>
+				</div>
+			</div>
+		</div>
+		<script src="welcome.js"></script>
+	</body>
+</html>
