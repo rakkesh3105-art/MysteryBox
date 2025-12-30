@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function()
         },
         {
             title: "When Sleep Takes Full Control 😴",
-            text: "Acting Like I’m Listening — Actually Dreaming 💤",
+            text: "Acting Like Listening — But Actually Dreaming 💤",
             type: "image",
             media: "images/sleep.jpg"
         }
@@ -134,4 +134,5 @@ document.addEventListener('DOMContentLoaded', function()
             }, i * 30);
         }
     }
+
 });
